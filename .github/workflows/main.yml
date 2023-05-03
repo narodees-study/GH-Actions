@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: echo text
         run: echo "Hello from GH"
+      - name: print few lines
+        run: |
+          echo Hello
+          echo from
+          echo GH Actions
